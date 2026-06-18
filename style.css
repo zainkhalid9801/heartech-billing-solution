@@ -11,18 +11,18 @@ header {
   border-bottom: 1px solid #eee;
 }
 
-/* HERO */
+/* HERO WITH DOCTOR BACKGROUND */
 .hero {
   position: relative;
-  height: 300px;
-  background: #f5f5f5;
+  height: 320px;
+  background: url("https://images.unsplash.com/photo-1580281657527-47f249e8f0c5") center/cover no-repeat;
 }
 
 .overlay {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.05);
+  background: rgba(255,255,255,0.75);
 }
 
 .hero-content {
@@ -30,6 +30,7 @@ header {
   text-align: center;
   top: 50%;
   transform: translateY(-50%);
+  font-weight: 600;
 }
 
 /* SECTIONS */
@@ -44,7 +45,7 @@ header {
   padding: 15px;
   margin: 10px auto;
   border: none;
-  background: #eee;
+  background: #f2f2f2;
   font-weight: bold;
   cursor: pointer;
 }
@@ -57,17 +58,24 @@ header {
   border: 1px solid #ddd;
 }
 
-/* TEXT TEAM */
-.team-text {
-  font-size: 18px;
-  line-height: 2;
+/* LEADERSHIP (PROFESSIONAL STYLE) */
+.leadership {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
-/* CEO TEXT */
-.ceo-text {
-  max-width: 500px;
-  margin: auto;
-  line-height: 1.8;
+.leader {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 18px;
 }
 
 /* CONTACT */
