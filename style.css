@@ -9,15 +9,19 @@ header {
   text-align: center;
   padding: 20px;
   border-bottom: 1px solid #eee;
+  background: rgba(255,255,255,0.8);
 }
 
 /* HERO WITH DOCTOR BACKGROUND */
 .hero {
   position: relative;
-  height: 320px;
+  height: 380px;
+
+  /* DOCTOR/NURSE IMAGE */
   background: url("https://images.unsplash.com/photo-1580281657527-47f249e8f0c5") center/cover no-repeat;
 }
 
+/* DARK/WHITE OVERLAY FOR READABILITY */
 .overlay {
   position: absolute;
   width: 100%;
@@ -25,6 +29,7 @@ header {
   background: rgba(255,255,255,0.75);
 }
 
+/* TEXT ON HERO */
 .hero-content {
   position: relative;
   text-align: center;
@@ -37,6 +42,9 @@ header {
 .section {
   padding: 50px 20px;
   text-align: center;
+  background: rgba(255,255,255,0.85);
+  margin: 10px;
+  border-radius: 10px;
 }
 
 /* ACCORDION */
@@ -45,7 +53,7 @@ header {
   padding: 15px;
   margin: 10px auto;
   border: none;
-  background: #f2f2f2;
+  background: #eee;
   font-weight: bold;
   cursor: pointer;
 }
@@ -56,26 +64,13 @@ header {
   margin: auto;
   padding: 10px;
   border: 1px solid #ddd;
-}
-
-/* LEADERSHIP (PROFESSIONAL STYLE) */
-.leadership {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.leader {
-  width: 250px;
-  padding: 20px;
-  border: 1px solid #ddd;
   background: #fff;
 }
 
-.name {
-  font-weight: 600;
+/* TEAM TEXT */
+.team-text {
   font-size: 18px;
+  line-height: 2;
 }
 
 /* CONTACT */
